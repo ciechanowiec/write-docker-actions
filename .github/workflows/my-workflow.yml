@@ -10,5 +10,7 @@ jobs:
 
       - name: "hello-action"
         uses: ./.github/actions/hello-world
-#        with:
-#          firstGreeting: "Learning Lab User"
+        with:
+          firstGreeting: "FIRST CUSTOM NAME"
+          secondGreeting: "FIRST CUSTOM NAME"
+          thirdGreeting: "FIRST CUSTOM NAME"
